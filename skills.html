@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Technical skills, domain strengths, education, and languages for Konstantine Bakradze." />
+    <meta name="theme-color" content="#f8fafc" />
+    <title>Skills & Education | Konstantine Bakradze</title>
+    <script>
+      (() => { let saved = null; try { saved = localStorage.getItem("kb-theme"); } catch (_) {} if (saved === "dark" || (!saved && matchMedia("(prefers-color-scheme: dark)").matches)) document.documentElement.classList.add("dark"); })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { darkMode: "class" };</script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body data-page="skills" class="overflow-x-hidden">
+    <div id="site-header"></div>
+
+    <main>
+      <!-- ============================================================
+           SKILLS PAGE
+           Edit the pill text within each category to update the stack.
+           ============================================================ -->
+      <section class="page-hero">
+        <div aria-hidden="true" class="absolute -right-24 top-16 size-72 rounded-full bg-teal-400/10 blur-3xl"></div>
+        <div class="page-shell relative reveal"><p class="section-kicker">03 / Capabilities</p><h1 class="section-title max-w-3xl sm:text-5xl">Tools chosen for the system.</h1><p class="section-copy">A backend-first toolkit spanning application code, cloud infrastructure, data stores, delivery, and operational reliability.</p></div>
+      </section>
+
+      <section class="py-20 sm:py-24">
+        <div class="page-shell grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="card reveal p-6"><p class="font-mono text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400">Languages</p><div class="mt-5 flex flex-wrap gap-2"><span class="tag">Python</span><span class="tag">Kotlin</span><span class="tag">JavaScript</span><span class="tag">C</span><span class="tag">C++</span></div></article>
+          <article class="card reveal p-6"><p class="font-mono text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400">Backend</p><div class="mt-5 flex flex-wrap gap-2"><span class="tag">Flask</span><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">Ktor</span><span class="tag">REST APIs</span><span class="tag">Microservices</span></div></article>
+          <article class="card reveal p-6"><p class="font-mono text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400">AWS &amp; Cloud</p><div class="mt-5 flex flex-wrap gap-2"><span class="tag">Lambda</span><span class="tag">ECS</span><span class="tag">API Gateway</span><span class="tag">EventBridge</span><span class="tag">SQS / SNS</span><span class="tag">CloudWatch</span></div></article>
+          <article class="card reveal p-6"><p class="font-mono text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400">Data</p><div class="mt-5 flex flex-wrap gap-2"><span class="tag">PostgreSQL</span><span class="tag">DynamoDB</span><span class="tag">Redis</span><span class="tag">MongoDB Atlas</span></div></article>
+          <article class="card reveal p-6"><p class="font-mono text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400">Delivery &amp; Operations</p><div class="mt-5 flex flex-wrap gap-2"><span class="tag">Docker</span><span class="tag">Linux</span><span class="tag">Git</span><span class="tag">CI/CD</span><span class="tag">Terraform</span><span class="tag">AWS SAM</span></div></article>
+          <article class="card reveal p-6"><p class="font-mono text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400">Domain strengths</p><div class="mt-5 flex flex-wrap gap-2"><span class="tag">System integration</span><span class="tag">Automation</span><span class="tag">Distributed systems</span><span class="tag">Observability</span><span class="tag">Reliability</span></div></article>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           EDUCATION, CERTIFICATIONS & LANGUAGES
+           Completion is not claimed until the date/status is confirmed.
+           ============================================================ -->
+      <section id="education" class="border-y border-slate-200/80 bg-white/60 py-20 dark:border-slate-800 dark:bg-slate-900/25 sm:py-24">
+        <div class="page-shell grid gap-12 lg:grid-cols-[.7fr_1.3fr] lg:gap-20">
+          <div class="reveal"><p class="section-kicker">Education</p><h2 class="section-title">Foundation &amp; communication.</h2><p class="section-copy">Technical study backed by the ability to communicate clearly across multilingual teams.</p></div>
+          <div class="reveal divide-y divide-slate-200 border-y border-slate-200 dark:divide-slate-800 dark:border-slate-800">
+            <div class="grid gap-3 py-7 sm:grid-cols-[1fr_auto] sm:items-start"><div><h3 class="font-bold text-slate-950 dark:text-white">Computer Science studies</h3><p class="mt-1 text-sm text-slate-500">Georgian Technical University</p></div><p class="font-mono text-xs font-semibold uppercase tracking-wider text-teal-600 dark:text-teal-400">Began 2019</p></div>
+            <div class="grid gap-4 py-7 sm:grid-cols-[10rem_1fr]"><h3 class="font-bold text-slate-950 dark:text-white">Languages</h3><div class="grid grid-cols-2 gap-x-5 gap-y-3 text-sm sm:grid-cols-3"><p><span class="block font-semibold text-slate-900 dark:text-slate-100">Georgian</span><span class="text-slate-500">Native</span></p><p><span class="block font-semibold text-slate-900 dark:text-slate-100">English</span><span class="text-slate-500">C1</span></p><p><span class="block font-semibold text-slate-900 dark:text-slate-100">Russian</span><span class="text-slate-500">C2</span></p></div></div>
+            <!-- Replace this row with confirmed certification details, or remove it. -->
+            <div class="grid gap-3 py-7 sm:grid-cols-[1fr_auto] sm:items-center"><div><h3 class="font-bold text-slate-950 dark:text-white">Certifications</h3><p class="mt-1 text-sm text-slate-500">Add verified certifications here when available.</p></div><span class="tag w-fit">Optional</span></div>
+          </div>
+        </div>
+        <div class="page-shell mt-12 flex justify-end"><a class="secondary-button" href="contact.html">Next: Contact <span class="ml-2" aria-hidden="true">→</span></a></div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Konstantine Bakradze about backend engineering and system integration work." />
+    <meta name="theme-color" content="#f8fafc" />
+    <title>Contact | Konstantine Bakradze</title>
+    <script>
+      (() => { let saved = null; try { saved = localStorage.getItem("kb-theme"); } catch (_) {} if (saved === "dark" || (!saved && matchMedia("(prefers-color-scheme: dark)").matches)) document.documentElement.classList.add("dark"); })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { darkMode: "class" };</script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body data-page="contact" class="overflow-x-hidden">
+    <div id="site-header"></div>
+
+    <main>
+      <!-- ============================================================
+           CONTACT PAGE
+           Replace the email, GitHub, and LinkedIn placeholders here and
+           in index.html before publishing the public site.
+           ============================================================ -->
+      <section class="relative flex min-h-[88vh] items-center overflow-hidden pb-20 pt-32 sm:pt-36">
+        <div aria-hidden="true" class="absolute -right-24 top-24 size-80 rounded-full bg-teal-400/10 blur-3xl"></div>
+        <div aria-hidden="true" class="absolute -left-24 bottom-12 size-72 rounded-full bg-blue-400/10 blur-3xl"></div>
+        <div class="page-shell relative">
+          <div class="reveal relative overflow-hidden rounded-3xl bg-slate-950 px-6 py-14 text-white shadow-2xl sm:px-12 sm:py-16 dark:border dark:border-slate-800">
+            <div aria-hidden="true" class="absolute -right-20 -top-20 size-72 rounded-full bg-teal-500/20 blur-3xl"></div>
+            <div class="relative grid items-end gap-10 lg:grid-cols-[1fr_auto]">
+              <div>
+                <p class="font-mono text-xs font-semibold uppercase tracking-[0.22em] text-teal-400">04 / Let’s connect</p>
+                <h1 class="mt-4 max-w-3xl text-4xl font-black tracking-tight sm:text-6xl">Have a system that needs to work better?</h1>
+                <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300">Reach out to discuss backend systems and integration work where thoughtful automation, clear APIs, and reliable delivery can make a measurable difference.</p>
+              </div>
+              <a class="inline-flex min-h-12 items-center justify-center rounded-xl bg-teal-400 px-6 py-3 text-sm font-bold text-slate-950 transition hover:-translate-y-0.5 hover:bg-white" href="mailto:YOUR_EMAIL@example.com">Start a conversation <span class="ml-2" aria-hidden="true">→</span></a>
+            </div>
+
+            <div class="relative mt-12 grid gap-4 border-t border-slate-800 pt-8 sm:grid-cols-3">
+              <a class="rounded-xl border border-slate-800 p-5 transition hover:border-teal-400" href="mailto:YOUR_EMAIL@example.com"><span class="block font-mono text-xs uppercase tracking-wider text-teal-400">Email</span><span class="mt-2 block text-sm text-slate-300">YOUR_EMAIL@example.com</span></a>
+              <a class="rounded-xl border border-slate-800 p-5 transition hover:border-teal-400" href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" target="_blank" rel="noreferrer"><span class="block font-mono text-xs uppercase tracking-wider text-teal-400">LinkedIn</span><span class="mt-2 block text-sm text-slate-300">Professional profile ↗</span></a>
+              <a class="rounded-xl border border-slate-800 p-5 transition hover:border-teal-400" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer"><span class="block font-mono text-xs uppercase tracking-wider text-teal-400">GitHub</span><span class="mt-2 block text-sm text-slate-300">Code and projects ↗</span></a>
+            </div>
+          </div>
+
+          <div class="reveal mt-10 flex flex-col items-center justify-between gap-5 text-center sm:flex-row sm:text-left">
+            <div><p class="font-semibold text-slate-950 dark:text-white">Prefer the complete overview?</p><p class="mt-1 text-sm text-slate-500">Download the PDF or return to the homepage.</p></div>
+            <div class="flex flex-wrap justify-center gap-3"><a class="secondary-button" href="index.html">Back home</a><a class="primary-button" href="assets/Konstantine_Bakradze_Resume.pdf" download>Download résumé ↓</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

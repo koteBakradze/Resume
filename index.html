@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Konstantine Bakradze — Backend and System Integration Engineer building reliable cloud services, integrations, and automation." />
+    <meta name="theme-color" content="#f8fafc" />
+    <meta property="og:title" content="Konstantine Bakradze — Backend Engineer" />
+    <meta property="og:description" content="Backend systems, cloud integrations, and automation engineered for reliability." />
+    <meta property="og:type" content="website" />
+    <title>Konstantine Bakradze | Backend Engineer</title>
+
+    <!-- Apply the saved/system theme before the page paints. -->
+    <script>
+      (() => {
+        let saved = null;
+        try { saved = localStorage.getItem("kb-theme"); } catch (_) {}
+        if (saved === "dark" || (!saved && matchMedia("(prefers-color-scheme: dark)").matches)) document.documentElement.classList.add("dark");
+      })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { darkMode: "class" };</script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body data-page="home" class="overflow-x-hidden">
+    <!-- The shared navigation is created by script.js. -->
+    <div id="site-header"></div>
+
+    <main>
+      <!-- ============================================================
+           HOME / HERO
+           Dynamic bio phrases are stored near the bottom of script.js.
+           ============================================================ -->
+      <section class="relative flex min-h-[92vh] items-center overflow-hidden pb-20 pt-32 sm:pt-36">
+        <div aria-hidden="true" class="absolute -right-24 top-28 size-72 rounded-full bg-teal-400/10 blur-3xl sm:size-[28rem]"></div>
+        <div aria-hidden="true" class="absolute -left-24 bottom-10 size-72 rounded-full bg-blue-400/10 blur-3xl"></div>
+        <div aria-hidden="true" class="absolute inset-0 opacity-[0.04] dark:opacity-[0.06]" style="background-image: linear-gradient(to right, currentColor 1px, transparent 1px), linear-gradient(to bottom, currentColor 1px, transparent 1px); background-size: 40px 40px;"></div>
+
+        <div class="page-shell relative grid items-center gap-14 lg:grid-cols-[1.2fr_.8fr]">
+          <div>
+            <p class="mb-6 inline-flex items-center gap-2 rounded-full border border-teal-500/30 bg-teal-500/5 px-4 py-2 font-mono text-xs font-medium text-teal-600 dark:text-teal-400">
+              <span class="size-2 rounded-full bg-teal-500 shadow-[0_0_0_4px_rgba(20,184,166,.12)]"></span>
+              Backend · Cloud · System Integration
+            </p>
+            <h1 class="max-w-4xl text-5xl font-black leading-[1.02] tracking-[-0.045em] text-slate-950 sm:text-6xl lg:text-7xl dark:text-white">
+              Engineering the quiet systems that <span class="text-teal-600 dark:text-teal-400">keep work moving.</span>
+            </h1>
+            <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl dark:text-slate-300">
+              I’m <strong class="font-semibold text-slate-950 dark:text-white">Konstantine Bakradze</strong>, a Backend &amp; System Integration Engineer focused on
+              <span id="dynamic-bio" class="font-semibold text-teal-600 dark:text-teal-400" aria-live="polite">reliable cloud services.</span>
+            </p>
+            <p class="mt-4 max-w-2xl leading-7 text-slate-600 dark:text-slate-400">I build APIs, event-driven workflows, and operational automation—with end-to-end ownership from implementation through monitoring and production reliability.</p>
+
+            <div class="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <!-- Add the final PDF at this exact path before publishing. -->
+              <a class="primary-button" href="assets/Konstantine_Bakradze_Resume.pdf" download>Download résumé (PDF) <span class="ml-2" aria-hidden="true">↓</span></a>
+              <a class="secondary-button" href="projects.html">Explore selected work <span class="ml-2" aria-hidden="true">→</span></a>
+            </div>
+
+            <!-- Replace these placeholders with public professional links. -->
+            <div class="mt-8 flex flex-wrap gap-2" aria-label="Contact and social links">
+              <a class="social-link" href="mailto:YOUR_EMAIL@example.com">Email</a>
+              <a class="social-link" href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" target="_blank" rel="noreferrer">LinkedIn <span class="ml-1.5" aria-hidden="true">↗</span></a>
+              <a class="social-link" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer">GitHub <span class="ml-1.5" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <aside class="card relative overflow-hidden p-6 shadow-[0_0_0_1px_rgba(20,184,166,.18),0_20px_45px_-24px_rgba(13,148,136,.45)] sm:p-8" aria-label="Professional impact summary">
+            <div class="absolute right-0 top-0 h-24 w-24 rounded-bl-full bg-teal-500/10"></div>
+            <p class="section-kicker">At a glance</p>
+            <div class="mt-6 grid gap-6 sm:grid-cols-3 lg:grid-cols-1">
+              <div class="border-b border-slate-200 pb-5 sm:border-b-0 sm:border-r sm:pr-5 lg:border-b lg:border-r-0 lg:pr-0 dark:border-slate-700">
+                <p class="text-4xl font-black tracking-tight text-slate-950 dark:text-white">1,000<span class="text-teal-500">+</span></p>
+                <p class="mt-1 text-sm leading-6 text-slate-500 dark:text-slate-400">daily requests handled by production services</p>
+              </div>
+              <div class="border-b border-slate-200 pb-5 sm:border-b-0 sm:border-r sm:pr-5 lg:border-b lg:border-r-0 lg:pr-0 dark:border-slate-700">
+                <p class="text-4xl font-black tracking-tight text-slate-950 dark:text-white">23<span class="text-teal-500">+</span></p>
+                <p class="mt-1 text-sm leading-6 text-slate-500 dark:text-slate-400">backend features for automation and data processing</p>
+              </div>
+              <div>
+                <p class="text-4xl font-black tracking-tight text-slate-950 dark:text-white">86<span class="text-teal-500">%</span></p>
+                <p class="mt-1 text-sm leading-6 text-slate-500 dark:text-slate-400">reduction in manual work through automation</p>
+              </div>
+            </div>
+            <div class="mt-7 rounded-xl bg-slate-100 p-4 dark:bg-slate-950/70">
+              <p class="font-mono text-xs leading-6 text-slate-500 dark:text-slate-400"><span class="text-teal-600 dark:text-teal-400">current_focus</span> = ["Backend", "AWS", "Integrations", "Reliability"]</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Quick routes make the new multi-page structure visible. -->
+      <section class="border-y border-slate-200/80 bg-white/60 py-20 dark:border-slate-800 dark:bg-slate-900/25">
+        <div class="page-shell">
+          <div class="reveal">
+            <p class="section-kicker">Explore</p>
+            <h2 class="section-title">The résumé, separated by focus.</h2>
+          </div>
+          <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <a class="card lift-card reveal p-6" href="experience.html"><span class="font-mono text-xs text-teal-600 dark:text-teal-400">01</span><h3 class="mt-5 font-bold text-slate-950 dark:text-white">Experience</h3><p class="mt-2 text-sm leading-6 text-slate-500">Roles, impact, and technology.</p></a>
+            <a class="card lift-card reveal p-6" href="projects.html"><span class="font-mono text-xs text-teal-600 dark:text-teal-400">02</span><h3 class="mt-5 font-bold text-slate-950 dark:text-white">Projects</h3><p class="mt-2 text-sm leading-6 text-slate-500">Selected systems and prototypes.</p></a>
+            <a class="card lift-card reveal p-6" href="skills.html"><span class="font-mono text-xs text-teal-600 dark:text-teal-400">03</span><h3 class="mt-5 font-bold text-slate-950 dark:text-white">Skills</h3><p class="mt-2 text-sm leading-6 text-slate-500">Tools, domains, and education.</p></a>
+            <a class="card lift-card reveal p-6" href="contact.html"><span class="font-mono text-xs text-teal-600 dark:text-teal-400">04</span><h3 class="mt-5 font-bold text-slate-950 dark:text-white">Contact</h3><p class="mt-2 text-sm leading-6 text-slate-500">Professional links and email.</p></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <noscript><p class="p-4 text-center">JavaScript is required for the shared navigation and theme controls.</p></noscript>
+    <script src="script.js" defer></script>
+  </body>
+</html>
