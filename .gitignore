@@ -1,0 +1,5 @@
+# Local Claude Code context (resume notes, session logs) — kept private
+.claude/
+
+# macOS
+.DS_Store
